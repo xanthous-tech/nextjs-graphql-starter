@@ -1,0 +1,12 @@
+.git/
+
+node_modules/
+yarn.lock
+package-lock.json
+build/
+.vscode/
+.DS_Store
+nohup.out
+.env*
+.next
+scripts

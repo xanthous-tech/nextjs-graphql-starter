@@ -1,0 +1,27 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    ".next",
+    "package.json",
+    "nodemon.json",
+    "node_modules/**/node_modules",
+    "pages/*",
+    "components/*",
+    "graphql/*",
+    "theme/*",
+    "lib/*",
+    "*.log",
+    "*.md"
+  ],
+  "verbose": true,
+  "events": {
+    "restart": "osascript -e 'display notification \"Server Restarted\" with title \"nodemon\"'"
+  },
+  "env": {
+    "DEBUG": "welink-bot-admin:*",
+    "DEBUG_DEPTH": "10",
+    "NODE_ENV": "development"
+  },
+  "ext": "js json"
+}

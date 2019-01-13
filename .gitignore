@@ -1,0 +1,12 @@
+node_modules
+.next
+
+package-lock.json
+yarn.lock
+
+.DS_Store
+
+.history
+i18n/data.json
+
+.env
